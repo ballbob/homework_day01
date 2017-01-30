@@ -1,0 +1,15 @@
+gitignore
+
+https://git-scm.com/docs/gitignore
+
+filename.gitignore specifies files for Git to ignore and not track. 
+
+If you include an already-tracked file, it will not be ignored.
+
+Each line instructs git in what to ignore and what not to ignore. These are "patterns" - when committing, ignore ignoreme.txt.
+
+A blank line can be used as a separator.
+
+# begins a comment line.
+
+! at the start of a filename specifies NOT to ignore a file where it would have been by a previous point in the , ie !dontignore.txt
